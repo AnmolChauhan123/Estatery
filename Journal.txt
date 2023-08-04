@@ -1,0 +1,31 @@
+These are the steps that I followed in the developement of my application for the assignment - 
+
+1. First I created the environment of my react application using NextJS.
+
+2. Then I installed couple of npm modules which will help us in the following dev journey. Some of them are - 
+    a. @chakra-ui/react - Used as our UI kit in the further developement
+    b. @emotion/react - A dependency of chakra-ui
+    c. axios - Used In case we wanna scale our project and use API instead of our dummy data
+    d. framer-motion - For our better experience in UI
+    e. millify - used in this project to format large numbers in human readable format
+    f. nprogress - a progress loading bar
+
+3. Now we are ready to start the dev. Firstly we delete all the default page that is provided to us via NextJS
+
+4. I then created my dummy data which I want to show in my application.
+
+5. Then I created a property component which will be basically like a card and it will contain the info about any property.
+
+6.One point that is really important is that to apply all the styles provided by Chakra UI. So do that we have to wrap our whole layout in the chakraprovider property in our app.js. Then only our styles that we have created using our chakra ui will be enabled.
+
+7.Just Completed our Dummy array and our layout is perfectly done. Now what's left is to apply the filtering logic in our code.
+
+8. Now let's create our search component which we are rendering in our index.js
+
+9. In there we build a component named search which will apply 4 levels of filtering on our dummy data.
+
+10. We will use useState property of react to achieve this goal.
+
+11.After applying the useState property and our if-else statements, our filtering assignment is ready.
+
+12.Now only two things are left - Deploying and Github push.
